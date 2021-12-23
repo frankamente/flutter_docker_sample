@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+
+  flutterapp:
+    container_name: stockapp_web
+    image: stockapp
+    ports:
+      - "1200:80"
